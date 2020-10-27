@@ -57,7 +57,7 @@ extension PageViewController: UIPageViewControllerDelegate, UIPageViewController
         
         if weatherLocations.isEmpty {
             //todo
-            weatherLocations.append(WeatherLocation(name: "CURRENT LOCATION", latitude: 20.20, longitude: 20.20))
+            weatherLocations.append(WeatherLocation(name: "", latitude: 20.20, longitude: 20.20))
         }
     }
     
